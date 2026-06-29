@@ -7,8 +7,7 @@ provider "aws" {
 resource "aws_vpc" "My-vpc" {
     cidr_block = "10.0.0.0/16"
     tags = {
-        Name = "Terraform-VPC"
-
+        Name = "Terr-vpc"
     }       
     
 }
